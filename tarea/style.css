@@ -1,0 +1,74 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b7c4e4;
+            color: #000000;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-weight: bold;
+        }
+        .box {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(235, 39, 202, 0.2);
+            width: 100%;
+            max-width: 450px;
+            border: 1px solid #ffffff;
+        }
+        h2 {
+            color: #6fc9f0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #b5d1f8;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            background: #63a3ec;
+            padding: 10px;
+            border-radius: 6px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c2b2b;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #000000;
+            background-color: #ffffff;
+            color: rgb(27, 27, 27);
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #22c55e;
+            color: rgb(0, 0, 0);
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        input[type="submit"]:hover {
+            background-color: #16a34a;
+        }
+        .resultado-item {
+            background-color: #f5f1c6;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border-left: 4px solid #38bdf8;
+        }
+        .resultado-item strong {
+            color: #101ee7;
+        }
+        .aprobado { border-left-color: #22c55e; }
+        .desaprobado { border-left-color: #ef4444; }
